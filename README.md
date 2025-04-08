@@ -6,9 +6,7 @@ This tool helps manage and update prices for your App Store Connect applications
 
 - JWT token authentication with App Store Connect API
 - Fetch app information and details
-- Retrieve IAP (In-App Purchase) prices
 - Update prices for apps and IAPs
-- Comprehensive error handling and logging
 
 ## Dependencies
 
@@ -118,13 +116,6 @@ All errors are logged to the console with detailed messages.
 This script works in conjunction with:
 - `createPricePointID.py`: Generates price point IDs
 - `getItemIds.py`: Fetches app and IAP IDs from App Store Connect
-
-## Security
-
-- All sensitive credentials are stored in the `.env` file
-- The `.env` file is excluded from version control
-- JWT tokens are automatically generated and expire after 20 minutes
-- Private keys are stored securely and accessed via environment variables
 
 ## License
 
