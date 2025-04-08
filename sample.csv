@@ -1,0 +1,5 @@
+input,price,territory,start,end,id,type,price_point_id
+TestApp,1.99,USA,null,2025-04-10,9999999999,apps,10023
+TestApp,10.99,USA,2025-04-10,null,9999999999,apps,10132
+TestApp,280,JPN,null,2025-04-10,9999999999,apps,10024
+TestApp,680,JPN,2025-04-10,null,9999999999,apps,10064
