@@ -49,7 +49,7 @@ python updatePrice.py --token YOUR_JWT_TOKEN --csv price-schedule.csv
 
 - `--token`: App Store Connect API token (required)
 - `--csv`: Path to the CSV file with price schedule data (default: 'app-price-schedule.csv')
-- `--debug`: Enable debug mode to print payload (optional)
+- `--dry-run`: Print the payload without making the API request (optional)
 
 ### CSV File Format
 
@@ -106,9 +106,9 @@ All errors are logged to the console with detailed messages.
    python updatePrice.py --token YOUR_JWT_TOKEN --csv my-prices.csv
    ```
 
-2. Enable debug mode to see the API payload:
+2. Perform a dry run to see the API payload without making changes:
    ```bash
-   python updatePrice.py --token YOUR_JWT_TOKEN --csv my-prices.csv --debug
+   python updatePrice.py --token YOUR_JWT_TOKEN --csv my-prices.csv --dry-run
    ```
 
 ### Related Scripts
